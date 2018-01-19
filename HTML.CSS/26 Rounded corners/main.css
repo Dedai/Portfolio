@@ -1,0 +1,8 @@
+.rounded_box{
+	background-color:orange;
+	width:200px;
+	text-align:center;
+	padding:50px 0px;
+	border-radius:5px;
+	border-top-left-radius:50px;
+}

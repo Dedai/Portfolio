@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="form.css"/>
+
+ <script type="text/javascript">
+
+		 function check_info(){
+				
+				var username = document.getElementById('first_name').value;
+				var last_name = document.getElementById('last_name').value;
+				var e-mail = document.getElementById('e-mail').value;
+				var password = document.getElementById('password').value;
+				
+				if(first_name==' '){
+					alert('Please fill in all fields!');
+					return false;
+				}
+				
+				if(last_name==' '){
+					alert('Please fill in all fields!');
+					return false;
+				}
+				
+				if(e_mail==' '){
+					alert('Please fill in all fields!');
+					return false;
+				}
+				
+				if(password==' '){
+					alert('Please fill in all fields!');
+					return false;
+				}
+				else{
+					return true;
+				}
+
+			}
+		 
+		 </script>
+
+</head>
+<body>
+
+  <form action = "" method="post" onsubmit="return check_info();" >
+		        <fieldset class = "Personal">
+				       <legend>Personal info:</br></legend>
+					   <p>
+					       <label for ="first_name">First name: </label>
+						    <input type="text" name="first_name" id="first_name"/>
+					   </p>
+					   <p>
+					      <label for ="last_name">Lirst name: </label>
+						    <input type="text" name="last_name" id="last_name"/>
+					   </p>
+					   <p>
+					      <label for ="email">E-mail: </label>
+						    <input type="text" name="e-mail" id="e-mail"/>
+					   </p>
+					   <p>
+					      <label for ="password">Password: </label>
+						    <input type="tel" name="password" id="password"/>
+					   </p>
+				      
+				</fieldset>
+				 <input type="submit" value="Send Letter"/>
+		 </form>
+		 
+		
+</body>
+
+</html>

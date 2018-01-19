@@ -1,0 +1,19 @@
+h1{
+	
+	background-color:orange;
+	
+	padding:10px 40px;  /*top and bottom, left and right*/
+	
+	border-top:8px solid green;
+	border-bottom:8px groove red
+	
+	/*border:3px ridge red;*/
+	
+	/*border-style:inset; dotted, dashed, solid, double, groove, ridge, inset, outset
+	border-width:5px;
+	border-color:green;*/
+}
+
+
+
+

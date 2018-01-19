@@ -1,0 +1,18 @@
+#parent p:before{
+	content:"I am a douche";
+}
+
+#parent p:after{
+	content:"You are a douche";
+}
+
+#parent p:first-child{
+	color:red;
+	text-decoration:underline;
+}
+
+#parent p:last-child{
+	color:blue;
+	text-decoration:underline;
+}
+

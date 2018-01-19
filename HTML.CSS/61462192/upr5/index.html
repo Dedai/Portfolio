@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+		<title>Title</title>
+		<link rel="stylesheet" href="new 2.css"/>
+		
+		 <script type="text/javascript">		 
+	    
+		function validateForm() {
+          var x = document.forms["myForm"]["first_name"].value;
+          if (x = "") {
+          alert("First name must be filled out");
+          return false;
+         }
+		 
+		 var y = document.forms["myForm"]["last_name"].value;
+          if (y == "") {
+          alert("Last name must be filled out");
+          return false;
+         }
+		 
+		 var e = document.forms["myForm"]["email"].value;
+          if (e == "") {
+          alert("E-mail must be filled out");
+          return false;
+         }
+		 
+		 var p = document.forms["myForm"]["password"].value;
+          if (p == "") {
+          alert("Password must be filled out");
+          return false;
+         }
+		 }
+		 
+		
+	   </script>	   
+    </head>
+	
+	<body background= "batman_arkham_origins_12-wallpaper-1920x1080.jpg">
+	
+	     <form name="myForm" action="/action_page_post.php" onsubmit="return validateForm()" method="post">
+		        <fieldset class = "Personal">
+				       <legend>Personal info:</br></legend>
+					   <p>
+					       <label for ="first_name">First name: </label>
+						    <input type="text" name="first_name" id="first_name"/>
+					   </p>
+					   <p>
+					      <label for ="last_name">Last name: </label>
+						    <input type="text" name="last_name" id="last_name"/>
+					   </p>
+					   <p>
+					      <label for ="email">E-mail: </label>
+						    <input type="text" name="email" id="e-mail"/>
+					   </p>
+					   <p>
+					      <label for ="password">Password: </label>
+						    <input type="tel" name="password" id="password"/>
+					   </p>
+				      
+				</fieldset>
+				
+				<input type="submit" value="Submit">
+		 </form>
+	
+	</body>
+
+</html>

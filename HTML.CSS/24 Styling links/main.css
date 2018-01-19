@@ -1,0 +1,19 @@
+a{
+	color:green;
+	text-decoration:none;
+}
+
+a:hover{
+	color:red;
+	text-decoration:underline;
+}
+
+a:active{
+	color:orange;
+	
+}
+
+a:visited{
+	color:pink;
+	text-decoration:none;
+}

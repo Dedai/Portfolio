@@ -1,0 +1,26 @@
+
+
+fieldset{
+	width:300px;
+	background-color:#81d4fa;
+	opacity:0,4;
+
+}
+
+fieldset legend{
+	font-weight:bold;
+}
+
+.Personal label{
+	float:left;
+	width:100px;
+}
+
+form{
+margin-top:18%;
+margin-bottom:40%;
+margin-left: 40%;
+margin-right:38%;
+width: 50%;
+
+}

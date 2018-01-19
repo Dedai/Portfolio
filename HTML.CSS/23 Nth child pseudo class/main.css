@@ -1,0 +1,4 @@
+#parent p:nth-child(even){
+	background-color:gray;
+	color:red;
+}

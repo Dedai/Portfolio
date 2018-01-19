@@ -1,0 +1,132 @@
+body{
+	
+	color:#000305;
+	font-size:87.5%;
+	font-family:Arial, 'Lucida Sans Unicode';
+	line-height:1.5;
+	text-align:left;	
+}
+
+a:link, a:visited{
+	color:#ffdb32;
+}
+
+a:hover, a:active{
+	background-color:#ffdb32;
+	color:#FFF;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+a{
+	text-decoration:none;
+}
+
+
+.mainHeader img{
+	height:auto;
+	margin:1% 6%;
+}
+
+.mainHeader nav{
+	background-color:#404040;
+	height:40px;
+	margin:0% 5% 0% 5%; /*top,right,bottom,left*/
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.mainHeader nav ul{
+	list-style:none;
+	margin:0 auto;
+}
+
+.mainHeader nav ul li{
+	float:left;
+	display:inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+	color:#FFF;
+	display:inline-block;
+	padding:10px 25px;
+	height:20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+	background-color:#ffdb32;
+	color:#FFF;
+	text-shadow:none;
+}
+
+.mainHeader nav ul li a {
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.mainHeader nav ul{
+   padding-left:0;
+}
+
+.mainHeader nav ul li{
+	width:10%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+	padding:10px 25px;
+	height:20px;
+	display:block;
+}
+
+.contact{
+	width:90%;
+	height:40px;
+	float:left;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#404040;
+	margin:11% 5%;
+}
+
+.contact p {
+		width:97%;
+		margin:0.7% auto;
+		color:#FFF
+}
+
+
+input[type=text] {
+    width: 60%;
+	height: 10px;
+    padding: 22px 20px;
+    margin: 0% 6%;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+	   margin: 0% 6%;
+}
+
+label {
+    display: inline-block;
+    margin: 1% 6%;
+}
+
+
+textarea {
+    width: 50%;
+    height: 150px;
+     margin: 4% 6%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    
+}
+

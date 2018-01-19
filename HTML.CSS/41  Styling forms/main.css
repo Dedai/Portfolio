@@ -1,0 +1,13 @@
+fieldset{
+	width:300px;
+	background-color:#81d4fa;
+}
+
+fieldset legend{
+	font-weight:bold;
+}
+
+.personal_info label{
+	float:left;
+	width:100px;
+}
